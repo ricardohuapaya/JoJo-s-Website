@@ -1,0 +1,52 @@
+body{
+	margin: 0; padding: 0%;
+	background-color: rgb(250, 197, 244);
+}
+
+header {
+	background-color: rgb(237, 228, 240); color:black;
+}
+
+#menu ol {
+	padding: 0; margin: 0;
+	display: inline;
+}
+
+#menu li {
+	display: inline; padding-left: 1em;
+	margin-left: 1em;
+	border-left: 1px solid black;
+}
+
+#menu li:first-child
+{
+	padding-left: 0; border-left: none;
+	margin-left: 0;
+}
+#menu li a {
+	color: black
+}
+#main{
+	padding: 0 12em 2em 12em;
+	position: relative;
+	background-color: pink;
+}
+#content{
+	background-color: white
+}
+#sidebar{
+	 position: absolute;
+	 width: 10em;
+	 right: 1em;top: 1em;
+}
+#sidebar h3{
+	color: white;
+	background-color: black;
+}
+
+#sidebar ol{
+	margin: 0 0 1em 0;
+	background-color: white;
+	border: 2px solid black;
+}
+footer {background-color: white;}
